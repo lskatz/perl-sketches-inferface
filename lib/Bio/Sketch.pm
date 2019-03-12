@@ -19,19 +19,21 @@ our $VERSION = 0.1;
 
 Sketch interface module
 
+=over
+
 =head1 SYNOPSIS
 
 An interface module for Sketches, e.g., Mash
 
-		use strict;
-		use warnings;
-		use Bio::Sketch::Mash;
-		
-		# Produce a sketch file file.fastq.gz.msh
-		system("mash sketch file.fastq.gz");
-		# Read the sketch
-		my $sketch = Bio::Sketch::Mash->new("file.fastq.gz.msh");
-		$sketch->writeJson("file.fastq.gz.json");
+    use strict;
+    use warnings;
+    use Bio::Sketch::Mash;
+    
+    # Produce a sketch file file.fastq.gz.msh
+    system("mash sketch file.fastq.gz");
+    # Read the sketch
+    my $sketch = Bio::Sketch::Mash->new("file.fastq.gz.msh");
+    $sketch->writeJson("file.fastq.gz.json");
 
 =over
 
