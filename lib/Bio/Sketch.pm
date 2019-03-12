@@ -21,6 +21,8 @@ Sketch interface module
 
 =over
 
+=back
+
 =head1 SYNOPSIS
 
 An interface module for Sketches, e.g., Mash
@@ -37,16 +39,20 @@ An interface module for Sketches, e.g., Mash
 
 =over
 
+=back
+
 =cut
 
 =pod
+
+=over
 
 =item Bio::Sketch->new("file.msh", \%options);
 
 Create a new Sketch instance.  One object per file.
 
   Arguments: Sketch filename
-	           Hash of options
+  Hash of options
   Returns:   Sketch object
 
 =back
@@ -56,6 +62,8 @@ Create a new Sketch instance.  One object per file.
 sub new{...;};
 
 =pod
+
+=over
 
 =item $sketch->sketch("file.fastq.gz");
 
@@ -72,6 +80,8 @@ sub sketch{...;};
 
 =pod
 
+=over
+
 =item $sketch->dist($other);
 
 Find the distance between two sketches
@@ -86,6 +96,8 @@ Find the distance between two sketches
 sub dist{...;};
 
 =pod
+
+=over
 
 =item $sketch->paste([$other, $other2...]);
 
