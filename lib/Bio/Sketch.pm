@@ -59,7 +59,7 @@ Create a new Sketch instance.  One object per file.
 
 =cut
 
-sub new{...;};
+sub new{};
 
 =pod
 
@@ -76,7 +76,7 @@ Sketch a raw reads or assembly file
 
 =cut
 
-sub sketch{...;};
+sub sketch{;};
 
 =pod
 
@@ -93,7 +93,7 @@ Find the distance between two sketches
 
 =cut
 
-sub dist{...;};
+sub dist{;};
 
 =pod
 
@@ -110,5 +110,5 @@ Merge two sketches
 
 =cut
 
-sub paste{...;};
+sub paste{;};
 
