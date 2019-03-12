@@ -11,7 +11,7 @@ use Class::Interface qw/interface/;
 #   * Other Sketch software implementation, e.g., Finch
 #   * Ability to write different formats
 
-our $VERSION = 0.2;
+our $VERSION = 0.3;
 
 =pod
 
